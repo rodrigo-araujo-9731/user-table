@@ -1,0 +1,116 @@
+.darkBG {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal {
+    width: 400px;
+    height: 800px;
+    background: white;
+    color: white;
+    z-index: 10;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+
+  .modalContent {
+    max-height: 700px;
+    overflow-x: hidden;
+    display: flex;
+    padding: 30px 30px 0 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: #2c3e50;
+    text-align: left;
+  }
+
+  .modalContent::-webkit-scrollbar {
+    display: none;
+  }
+
+  form {
+    padding-left: 30px;
+  }
+
+  form p {
+      margin: 10px 0;
+  }
+  h4, h5 {
+      margin-bottom: 10px;
+  }
+
+  form input {
+      height: 30px;
+      width: 200px;
+      border-radius: 8px;
+      border: 1px solid lightgray;
+      line-height: 18px;
+      padding-left: 8px
+  }
+
+  .modalActions {
+    position: absolute;
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .actionsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .closeBtn {
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    background: white;
+    transition: all 0.25s ease;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    align-self: flex-end;
+  }
+
+  .actionBtn {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    transition: all 0.25s ease;
+  }
+
+  .actionBtn:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+
+  .cancelBtn:hover {
+    box-shadow: none;
+    transform: none;
+    background: whitesmoke;
+  }
+
+  label > input{
+
+  }
+  

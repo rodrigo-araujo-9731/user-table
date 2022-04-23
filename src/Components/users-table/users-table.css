@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container {
+    text-align: left;
+    display: flex;
+    top: 0;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #F0F0F0;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.textCol {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.active {
+    background-color: #d0433c;
+}
+.row:hover {
+    background-color: #e59f9b; /* d0433c */
+    cursor:default;
+}
